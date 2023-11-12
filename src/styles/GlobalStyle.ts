@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
 body {
   font-family: ${({ theme }) => theme.typography.mainFont};
   background-color: ${({ theme }) => theme.colors.mainBackground};
+  color: ${({ theme }) => theme.colors.light};
   margin: 0;
 }
 
