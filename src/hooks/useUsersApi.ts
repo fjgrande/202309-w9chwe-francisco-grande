@@ -9,7 +9,6 @@ const useUsersApi = () => {
     const { data: users } = await axios.get<{ users: UsersStructure[] }>(
       `${apiUrl}/users`,
     );
-
     return users;
   }, [apiUrl]);
 
