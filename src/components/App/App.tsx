@@ -11,7 +11,6 @@ const App = (): React.ReactElement => {
       <Routes>
         <Route path="/" element={<Navigate to="/users" />} />
         <Route path="/users" element={<UsersPage />} />
-        <Route path="/create" />
       </Routes>
     </AppStyled>
   );
